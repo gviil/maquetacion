@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Roboto/Roboto-Black.ttf);
+}
+
+* {
+    font-family: 'Roboto' , 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container-principal {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    background-color: rgba(247, 247, 247, 0.986);
+    align-items: center;
+
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.menu-ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 18px;
+
+
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bar-209148_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.header-title__cursive {
+    color: rgba(234, 234, 55, 0.811);
+    font-size: 34px;
+}
+
+.header-title {
+    color: white;
+    font-size: 35px;
+}
+
+.header-text {
+    color: white;
+    font-size: 20px;
+
+}
+
+.concept {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/pexels-henry-&-co-1939485.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.concept-box {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    width: 700px;
+    height: auto;
+    padding: 30px;
+}
+
+.concept-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.concept-text {
+    font-size: 25px;
+}
+
+
+.galeria {
+    background: url(../img/pexels-toni-cuenca-572490.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+    align-items: flex-start;
+}
+
+.galeria div{
+    padding-top: 10px;
+}
+
+.galeria-img {
+    width: 350px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.imgh{
+    height: 300px;
+
+}
+.galeria-three{
+    padding: 10px;
+}
+.cartaComida{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartaComida-title{
+    font-size: 35px;
+}
+
+.cartaComida-opciones{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.conatiner-cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    margin-top: 25px;
+    
+    justify-content: space-around;
+}
+
+.cardProducts{
+     display: flex;
+     justify-content: space-between;
+}
+
+.cartaComida{
+    background: url(../img/plant-2004483_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.blog-title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.blog-promociones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+.blog-card{
+    width: 20%;
+    height: 550px;
+    color: gainsboro;
+   
+    
+}
+
+.blog-mozzabar{
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid rgb(239, 239, 239);
+    width: 100px;
+}
+.blog-text{
+    text-align: start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+.back1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/plant-2004483_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.back2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bar-209148_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.back3{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.blog-entradas{
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(230, 141, 78);
+    color: white;
+}
+
